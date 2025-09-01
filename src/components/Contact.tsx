@@ -47,7 +47,7 @@ const Contact = () => {
               Message Sent!
             </h3>
             <p className="text-gray-400">
-              Thanks for reaching out! I'll get back to you within 24 hours.
+              Thanks for reaching out! I&apos;ll get back to you within 24 hours.
             </p>
           </div>
         </div>
