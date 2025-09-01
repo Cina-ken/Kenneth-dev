@@ -1,13 +1,13 @@
 "use client";
-import React, { useState } from 'react';
-import { Mail, ArrowRight } from 'lucide-react';
+import React, { useState } from "react";
+import { Mail, ArrowRight } from "lucide-react";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    subject: '',
-    message: ''
+    name: "",
+    email: "",
+    subject: "",
+    message: "",
   });
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
@@ -15,21 +15,23 @@ const Contact = () => {
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setIsLoading(true);
-    
+
     // Simulate API call
-    await new Promise(resolve => setTimeout(resolve, 1500));
-    
+    await new Promise((resolve) => setTimeout(resolve, 1500));
+
     setIsSubmitted(true);
     setIsLoading(false);
-    setFormData({ name: '', email: '', subject: '', message: '' });
-    
+    setFormData({ name: "", email: "", subject: "", message: "" });
+
     setTimeout(() => setIsSubmitted(false), 4000);
   };
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+  const handleChange = (
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+  ) => {
     setFormData({
       ...formData,
-      [e.target.name]: e.target.value
+      [e.target.name]: e.target.value,
     });
   };
 
@@ -41,7 +43,9 @@ const Contact = () => {
             <div className="w-16 h-16 bg-green-500/20 rounded-full flex items-center justify-center mx-auto mb-4">
               <Mail className="w-8 h-8 text-green-400" />
             </div>
-            <h3 className="text-2xl font-bold text-white mb-2">Message Sent!</h3>
+            <h3 className="text-2xl font-bold text-white mb-2">
+              Message Sent!
+            </h3>
             <p className="text-gray-400">
               Thanks for reaching out! I'll get back to you within 24 hours.
             </p>
@@ -56,14 +60,18 @@ const Contact = () => {
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">
-            Let's Work Together
+            Let&apos;s Work Together
           </h2>
           <p className="text-xl text-gray-400">
-            Have a project in mind? I'd love to hear about it and help bring your ideas to life.
+            Have a project in mind? I&apos;d love to hear about it and help
+            bring your ideas to life.
           </p>
         </div>
 
-        <form onSubmit={handleSubmit} className="bg-gray-900 p-8 rounded-xl border border-gray-700">
+        <form
+          onSubmit={handleSubmit}
+          className="bg-gray-900 p-8 rounded-xl border border-gray-700"
+        >
           <div className="grid md:grid-cols-2 gap-6 mb-6">
             <div>
               <label className="block text-sm font-semibold text-gray-300 mb-2">

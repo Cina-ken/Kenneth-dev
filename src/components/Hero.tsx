@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { Github, Mail, Linkedin, Code, ChevronDown } from "lucide-react";
 import Link from "next/link";
 
@@ -29,7 +29,7 @@ const Hero = () => {
 
           <p className="text-xl sm:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto leading-relaxed">
             I create beautiful, functional web applications using modern
-            technologies like Next.js, React, and TypeScript. Let's bring your
+            technologies like Next.js, React, and TypeScript. Let&apos;s bring your
             ideas to life.
           </p>
 

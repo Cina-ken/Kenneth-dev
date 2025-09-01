@@ -12,16 +12,16 @@ const About = () => {
               About Me
             </h2>
             <p className="text-lg text-gray-400 mb-6 leading-relaxed">
-              I'm a passionate full-stack developer with 4+ years of experience
-              creating digital solutions that make a difference. I specialize in
-              React/Next.js development and love turning complex problems into
-              simple, beautiful designs.
+              I&apos;m a passionate full-stack developer with 4+ years of
+              experience creating digital solutions that make a difference. I
+              specialize in React/Next.js development and love turning complex
+              problems into simple, beautiful designs.
             </p>
             <p className="text-lg text-gray-400 mb-8 leading-relaxed">
-              When I'm not coding, you'll find me exploring new technologies,
-              contributing to open source projects, or mentoring fellow
-              developers. I believe great software combines technical excellence
-              with genuine user empathy.
+              When I&apos;m not coding, you&apos;ll find me exploring new
+              technologies, contributing to open source projects, or mentoring
+              fellow developers. I believe great software combines technical
+              excellence with genuine user empathy.
             </p>
 
             <div className="space-y-4 mb-8">
@@ -41,7 +41,7 @@ const About = () => {
 
             <Link href="#contact">
               <button className="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors font-semibold flex items-center">
-                Let's Work Together
+                Let&apos;s Work Together
                 <ArrowRight className="w-5 h-5 ml-2" />
               </button>
             </Link>
