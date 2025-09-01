@@ -13,7 +13,7 @@ const Projects = () => {
       description: "Modern e-commerce platform with payment integration, admin dashboard, and real-time inventory management.",
       technologies: ["Next.js", "Stripe", "PostgreSQL", "Tailwind"],
       image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-      github: "#",
+      github: "https://github.com/Cina-ken",
       demo: "#"
     },
     {
@@ -22,7 +22,7 @@ const Projects = () => {
       description: "Analytics dashboard with real-time data visualization, user management, and responsive design.",
       technologies: ["React", "Chart.js", "TypeScript", "Framer Motion"],
       image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-      github: "#",
+      github: "https://github.com/Cina-ken",
       demo: "#"
     },
     {
@@ -31,7 +31,7 @@ const Projects = () => {
       description: "Cross-platform mobile banking application with biometric authentication and transaction tracking.",
       technologies: ["React Native", "Node.js", "MongoDB", "JWT"],
       image: "https://images.unsplash.com/photo-1563013544-824ae1b704d3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-      github: "#",
+      github: "https://github.com/Cina-ken",
       demo: "#"
     },
     {
@@ -40,7 +40,7 @@ const Projects = () => {
       description: "AI-powered content generation tool with user authentication, payment processing, and API integration.",
       technologies: ["Next.js", "OpenAI API", "Prisma", "Stripe"],
       image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-      github: "#",
+      github: "https://github.com/Cina-ken",
       demo: "#"
     },
     {
@@ -49,7 +49,7 @@ const Projects = () => {
       description: "Modern restaurant website with online ordering, table reservations, and menu management system.",
       technologies: ["React", "Tailwind", "Framer Motion", "Contentful"],
       image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-      github: "#",
+      github: "https://github.com/Cina-ken",
       demo: "#"
     },
     {
@@ -58,7 +58,7 @@ const Projects = () => {
       description: "Cross-platform fitness app with workout tracking, progress analytics, and social features.",
       technologies: ["React Native", "Firebase", "Chart.js", "Push Notifications"],
       image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-      github: "#",
+      github: "https://github.com/Cina-ken",
       demo: "#"
     }
   ];
