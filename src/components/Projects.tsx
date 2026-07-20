@@ -8,6 +8,15 @@ const Projects = () => {
   
   const projects = [
     {
+      title: "MarketCap",
+      category: "fullstack",
+      description: "Stock market dashboard with live prices, historical charts, company news, and a Stripe-gated watchlist. Supabase auth with Row Level Security keeps each user's saved tickers private.",
+      technologies: ["Next.js", "Supabase", "Stripe", "TypeScript"],
+      image: "/projects/marketcap.png",
+      github: "https://github.com/Cina-ken/Market_Cap",
+      demo: "https://marketcap-jade.vercel.app"
+    },
+    {
       title: "E-Commerce Platform",
       category: "fullstack",
       description: "Modern e-commerce platform with payment integration, admin dashboard, and real-time inventory management.",
