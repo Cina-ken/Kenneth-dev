@@ -46,11 +46,11 @@ const Projects = () => {
     {
       title: "AI Content Generator",
       category: "fullstack",
-      description: "AI-powered content generation tool with user authentication, payment processing, and API integration.",
-      technologies: ["Next.js", "OpenAI API", "Prisma", "Stripe"],
-      image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-      github: "https://github.com/Cina-ken",
-      demo: "#"
+      description: "AI content generator with streamed OpenAI output, a Stripe-gated unlimited plan, and atomic quota checking that closes the race condition where concurrent requests could slip past the free-tier cap.",
+      technologies: ["Next.js", "Supabase", "OpenAI", "Stripe"],
+      image: "/projects/contentforge.png",
+      github: "https://github.com/Cina-ken/ai-content-generator",
+      demo: "https://ai-content-generator-kappa-tawny.vercel.app"
     },
     {
       title: "Restaurant Website",
