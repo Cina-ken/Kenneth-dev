@@ -39,9 +39,13 @@ const Hero = () => {
                 View My Work
               </button>
             </Link>
-            <button className="border-2 border-blue-400 text-blue-400 px-8 py-4 rounded-lg hover:bg-blue-400 hover:text-white transition-all font-semibold text-lg">
-              Download Resume
-            </button>
+            <a
+  href="/Kenneth_Chukwu_CV_updated_SW.pdf"
+  download
+  className="border-2 border-blue-400 text-blue-400 px-8 py-4 rounded-lg hover:bg-blue-400 hover:text-white transition-all font-semibold text-lg inline-block"
+>
+  Download Resume
+</a>
           </div>
 
           <div className="flex justify-center space-x-6">
