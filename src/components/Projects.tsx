@@ -17,13 +17,13 @@ const Projects = () => {
       demo: "https://marketcap-jade.vercel.app"
     },
     {
-      title: "E-Commerce Platform",
+      title: "CampusHub",
       category: "fullstack",
-      description: "Modern e-commerce platform with payment integration, admin dashboard, and real-time inventory management.",
-      technologies: ["Next.js", "Stripe", "PostgreSQL", "Tailwind"],
-      image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-      github: "https://github.com/Cina-ken",
-      demo: "#"
+      description: "Campus marketplace, job board, and student housing platform with messaging, reviews, notifications, and a full admin panel. Every data type is a swappable localStorage-backed repository built against a plain interface, so plugging in a real backend later means rewriting five files, not the UI.",
+      technologies: ["Next.js", "TypeScript", "ShadCN UI", "Zod"],
+      image: "/projects/campushub.png",
+      github: "https://github.com/Cina-ken/campushub",
+      demo: "https://campushub-taupe.vercel.app"
     },
     {
       title: "SaaS Dashboard",
